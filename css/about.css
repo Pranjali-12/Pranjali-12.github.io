@@ -1,0 +1,157 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("/Web/Resturant/images/about_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    font-family: 'Play', sans-serif;
+}
+
+nav {
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: 5px double white;
+    border-radius: 20px;
+    margin: 6px;
+    transition: 0.5s ease;
+}
+
+ul li a:hover {
+    color: black;
+    background-color: rgb(255, 255, 255, 0.5);
+    border: 5px double black;
+    padding: 15px 30px;
+}
+
+ul li.active a {
+    color: white;
+    font-family: "Berkshire Swash", cursive;
+    font-weight: 100;
+    font-style: italic;
+    background-color: rgb(0, 0, 0, 0.5);
+    border: 5px double white;
+}
+
+h1 {
+    word-spacing: 20px;
+    margin-top: 0;
+    margin-left: 100px;
+    font-family: 'Acme', sans-serif;
+    font-size: 110px;
+    color: white;
+}
+
+.sub {
+    display: none;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+}
+
+.sub a {
+    display: block;
+}
+
+.main ul li:hover .sub {
+    display: block;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.img1 {
+    border: 3px solid red;
+    border-radius: 25px;
+    height: 400px;
+    width: 400px;
+    margin-right: 20px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    transition: 2s ease;
+}
+
+.img1:hover {
+    height: 480px;
+    width: 480px;
+}
+
+.content {
+    /* border: 3px solid red; */
+    color: white;
+    font-size: 20px;
+    border-radius: 25px;
+    height: 400px;
+    width: 800px;
+    margin-top: -430px;
+    margin-left: 650px;
+    word-spacing: 2px;
+}
+
+.name {
+    color: white;
+    font-size: 50px;
+    /* font-weight: bold; */
+    padding: 20px 0px 20px 0px;
+}
+
+.h {
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    /* font-weight: bold; */
+    padding-bottom: 20px;
+    word-spacing: 6px;
+}
+
+.img2 {
+    border: 3px solid red;
+    border-radius: 25px;
+    height: 500px;
+    width: 900px;
+    margin-right: 20px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    transition: 2s ease;
+}
+
+.team {
+    text-align: center;
+    margin: 30px;
+}
+
+.th {
+    color: white;
+    font-size: 90px;
+    padding: 20px;
+    transition: 2s ease;
+    /* text-shadow: 15px 10px 2px rgba(128, 128, 128, 0.43); */
+}
+
+.img2:hover {
+    height: 700px;
+    width: 1100px;
+}
