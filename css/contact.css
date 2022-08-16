@@ -2,7 +2,7 @@ body {
     margin: 0px;
     padding: 0px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2),
-            rgba(0, 0, 0, 0.7)), url("/Web/Resturant/images/contact_bg.jpg");
+            rgba(0, 0, 0, 0.7)), url("/images/contact_bg.jpg");
     /* background-color: rgb(142, 68, 173 ); */
     background-repeat: no-repeat;
     background-size: cover;
