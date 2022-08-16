@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-image: url("/Web/Resturant/images/sp_bg.jpg");
+    background-image: url("/images/sp_bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -90,17 +90,17 @@ h1 {
 }
 
 #p1 {
-    background-image: url("/Web/Resturant/images/biryani.jpg");
+    background-image: url("/images/biryani.jpg");
     margin: 0 200px;
 }
 
 #p2 {
-    background-image: url("/Web/Resturant/images/pav-bhaji.jpg");
+    background-image: url("/images/pav-bhaji.jpg");
     margin: -600px 850px;
 }
 
 #p3 {
-    background-image: url("/Web/Resturant/images/paneer.jpg");
+    background-image: url("/images/paneer.jpg");
     height: 500px;
     width: 800px;
     background-repeat: no-repeat;
@@ -112,12 +112,12 @@ h1 {
 }
 
 #p4 {
-    background-image: url("/Web/Resturant/images/butter_chicken.jpg");
+    background-image: url("/images/butter_chicken.jpg");
     margin: -650px 200px;
 }
 
 #p5 {
-    background-image: url("/Web/Resturant/images/chole.jpg");
+    background-image: url("/images/chole.jpg");
     margin: -1250px 850px;
 }
 
